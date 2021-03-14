@@ -19,11 +19,11 @@ logging.basicConfig(
 
 ENV = bool(os.environ.get("ENV", False))
 if ENV:
-    API_ID_KEY = int(os.environ.get("API_ID_KEY"))
-    API_HASH_KEY = os.environ.get("API_HASH_KEY")
-    STRING_SESSION = os.environ.get("STRING_SESSION")
-    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY")
-    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME")
+    API_ID_KEY = int(os.environ.get("3683760"))
+    API_HASH_KEY = os.environ.get("753f879b9411fe8d3d3dc2eb01160eab")
+    STRING_SESSION = os.environ.get("1BVtsOHcBu7MBrJAXYtz9N0bH6o_1gwTHrvMI78u_i1Ji_Cq9BXHMFqAfJBKcDNa8xobU-5lgu2dXqC8EtbAkanI4-VUdQ90BABsA5a20KJ_a9OK3Rt-ee0hyHP9hwIgl7Yc0qDuF2S8_HikGqR_HA1vTco70417Snf5RV3b6YE7L8OyGWz9t6M-yKFEm6_EGcoDGJ5xemvek8ZNLanjcs1JPo-2-U1Hq549blqhJ_kltVa4mSyOF6_DqNK056c8wc3IkOb9uwYWTRZIPOfN3eHkjhqXu8qZuyLfBBzk7sIASzY1fHSAcGBW5vrAnpiYvxHvi1zDgXvqftxNhpp4sius9OcCQphM=")
+    HEROKU_API_KEY = os.environ.get("4a1c0a68-bae3-41ae-9b35-d40e388ea006")
+    HEROKU_APP_NAME = os.environ.get("helluubot")
     RAW_SIBYL = os.environ.get("SIBYL", "")
     RAW_ENFORCERS = os.environ.get("ENFORCERS", "")
     SIBYL = list(int(x) for x in os.environ.get("SIBYL", "").split())
@@ -33,7 +33,7 @@ if ENV:
     Sibyl_logs = int(os.environ.get("Sibyl_logs"))
     Sibyl_approved_logs = int(os.environ.get("Sibyl_Approved_Logs"))
     GBAN_MSG_LOGS = int(os.environ.get("GBAN_MSG_LOGS"))
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = os.environ.get("1506722934:AAGr4t1La44b7S1PT60HiOL3GLOUYFy9DuQ")
 else:
     import Sibyl_System.config as Config
 
