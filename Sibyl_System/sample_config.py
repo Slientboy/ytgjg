@@ -6,4 +6,4 @@ STRING_SESSION: str = "1BVtsOK8Bu6FQCq3703NQ_T-kV_QF9ahpunKUWfxaJxJ4LGhF056K-4Nc
 Sibyl_logs: Union[str, int] = -1001317060675
 Sibyl_approved_logs: Union[str, int] = -1001439418980
 GBAN_MSG_LOGS: Optional[Union[str, int]] = -1001342831787
-BOT_TOKEN: str = "123456:shsiajskzkxhxj"
+BOT_TOKEN: str = "1746986966:AAE8IImkwe5l_Txbah0u5GOLeRzuwhnKJMU"
