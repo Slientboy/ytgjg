@@ -29,7 +29,8 @@ if ENV:
     SIBYL = list(int(x) for x in os.environ.get("SIBYL", "").split())
     INSPECTORS = list(int(x) for x in os.environ.get("INSPECTORS", "").split())
     ENFORCERS = list(int(x) for x in os.environ.get("ENFORCERS", "").split())
-    MONGO_DB_URL = os.environ.get("MONGO_DB_URL")
+    MONGO_DB_URL = os.environ.get("const MongoClient = require('mongodb').MongoClient;
+const uri = ("MONGO_DB_URL")
     Sibyl_logs = int(os.environ.get("Sibyl_logs"))
     Sibyl_approved_logs = int(os.environ.get("Sibyl_Approved_Logs"))
     GBAN_MSG_LOGS = int(os.environ.get("GBAN_MSG_LOGS"))
