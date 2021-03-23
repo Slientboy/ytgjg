@@ -30,8 +30,8 @@ if ENV:
     INSPECTORS = list(int(x) for x in os.environ.get("INSPECTORS", "").split())
     ENFORCERS = list(int(x) for x in os.environ.get("ENFORCERS", "").split())
     MONGO_DB_URL = os.environ.get("MONGO_DB_URL")
-    Sibyl_logs = int(os.environ.get("Sibyl_logs"))
-    Sibyl_approved_logs = int(os.environ.get("Sibyl_Approved_Logs"))
+    Sibyl_logs = (os.environ.get("Sibyl_logs"))
+    Sibyl_approved_logs = (os.environ.get("Sibyl_Approved_Logs"))
     GBAN_MSG_LOGS = int(os.environ.get("GBAN_MSG_LOGS"))
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
