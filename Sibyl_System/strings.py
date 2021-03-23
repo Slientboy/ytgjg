@@ -1,7 +1,7 @@
 on_string = """
-*Connection successful!* 
-Welcome {Enforcer} {name}
-You are a valid user!
+「 __Arcane is online!__ 」
+• **User:** {name}
+• **Type:** {Enforcer}
 """
 
 # Make sure not to change these too much
