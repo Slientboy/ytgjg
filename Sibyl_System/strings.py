@@ -1,5 +1,5 @@
 on_string = """
-Connection successful! 
+*Connection successful!* 
 Welcome {Enforcer} {name}
 You are a valid user!
 """
