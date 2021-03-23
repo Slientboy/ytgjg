@@ -21,7 +21,7 @@ ENV = bool(os.environ.get("ENV", False))
 if ENV:
     API_ID_KEY = int(os.environ.get("3683760"))
     API_HASH_KEY = os.environ.get("753f879b9411fe8d3d3dc2eb01160eab")
-    STRING_SESSION = os.environ.get("1BVtsOK8Bu6FQCq3703NQ_T-kV_QF9ahpunKUWfxaJxJ4LGhF056K-4NcstuxYGDCbhe0YgOMF7evwR8HjhRd1jGhV9CiapVAxHf0LWfidNQ9ee4fQVpeibgVpudQh8LNDzBtYC1GZ3o4NYF6VigGkR7DvPloiqQtM5Z_PAXjPZ8QF2BBx7PS2rurfaYhaElp-fY-WmcTK43Y6Px82sNpMEN6OEaCJyMeutcTtsHnkdpSm4iH_Q4J14x10PtwbFh5RtW8-wKwnUi0-RYu1o9pYwJZhUDO-2L7K8YnuGtBIh4UvDJTK5rhRU500f6uU9IdbOEC01irpWMcAksCNauEdP95VkBbsNw=")
+    STRING_SESSION = os.environ.get("1BVtsOHgBu4Q6QTirbBVedC6PwfRpEIPvTYaJanFy3nQcSWdeCRN-KfIAdu7RLsehZw5iOIi65sOSsj0rgneLxItyB1kJe7mySQS0vWLGB31Ylt--3TQPWjD5SvM91zQYoXpuFY3cm_nkZVOvCAHefmM501FaG1LLFZHs_znLAcXRJSYpp1ynzYpVx6G6ugg0ruInAJhPY7ElYFVoARERiNCPasxUlIlzf5SYv-3xlPty9FtlUQj_XUVNIavnjWse-05Ma6KTfka4X6GjWatbTEWpvWgZ98_9N1Y46PycwNkYMWs8Irl8UEpTYDb-TVmXaLRIlqW-ZQhnsT1Y6Dx6RutO4y0a7uw=")
     HEROKU_API_KEY = os.environ.get("86794ca3-299c-448a-aeb3-0c027c0c7698")
     HEROKU_APP_NAME = os.environ.get("itachia")
     RAW_SIBYL = os.environ.get("SIBYL", "")
