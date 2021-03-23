@@ -7,3 +7,4 @@ Sibyl_logs: Union[str, int] = -1001317060675
 Sibyl_approved_logs: Union[str, int] = -1001439418980
 GBAN_MSG_LOGS: Optional[Union[str, int]] = -1001342831787
 BOT_TOKEN: str = "1746986966:AAE8IImkwe5l_Txbah0u5GOLeRzuwhnKJMU"
+MONGO_DB_URL: Union[str, int] = "mongodb+srv://Itachiuchiha321:UtkarshUchiha4617@cluster0.mkipy.mongodb.net/arcaneworld?retryWrites=true&w=majority"
