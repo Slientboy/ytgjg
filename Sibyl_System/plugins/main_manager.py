@@ -99,7 +99,7 @@ async def scan(event):
         if event.chat.username
         else f"t.me/c/{event.chat.id}/{event.message.id}"
     )
-    await event.reply("Connecting to Sibyl for a cymatic scan.")
+    await event.reply("**Scan request has been sent to Arcane base.**")
     if req_proof and req_user:
         await replied.forward_to(Sibyl_logs)
         await System.gban(
@@ -232,7 +232,7 @@ async def approve(event):
             if orig:
                 await System.send_message(
                     orig.group(1),
-                    "User is a target for enforcement action.\nEnforcement Mode: Lethal Eliminator",
+                    "**Arcane detected maliciousness on scanned user.**\n\n• Action: **Enforcing GBan**",
                     reply_to=int(orig.group(2)),
                 )
 
@@ -271,7 +271,7 @@ help_plus = """
 Here is the help for **Main**:
 
 Commands:
-    `scan` - Reply to a message WITH reason to send a request to Inspectors/Sibyl for judgement
+    `scan` - Reply to a message WITH reason to send a request to Inspectors/Arcane for judgement
     `approve` - Approve a scan request (Only works in Sibyl System Base)
     `revert` or `revive` or `restore` - Ungban ID
     `qproof` - Get quick proof from database for given user id
