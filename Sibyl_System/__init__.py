@@ -19,28 +19,22 @@ logging.basicConfig(
 
 ENV = bool(os.environ.get("ENV", False))
 if ENV:
-    API_ID_KEY = int(os.environ.get("3683760"))
-    API_HASH_KEY = os.environ.get("753f879b9411fe8d3d3dc2eb01160eab")
-    STRING_SESSION = os.environ.get("1BVtsOHgBu4Q6QTirbBVedC6PwfRpEIPvTYaJanFy3nQcSWdeCRN-KfIAdu7RLsehZw5iOIi65sOSsj0rgneLxItyB1kJe7mySQS0vWLGB31Ylt--3TQPWjD5SvM91zQYoXpuFY3cm_nkZVOvCAHefmM501FaG1LLFZHs_znLAcXRJSYpp1ynzYpVx6G6ugg0ruInAJhPY7ElYFVoARERiNCPasxUlIlzf5SYv-3xlPty9FtlUQj_XUVNIavnjWse-05Ma6KTfka4X6GjWatbTEWpvWgZ98_9N1Y46PycwNkYMWs8Irl8UEpTYDb-TVmXaLRIlqW-ZQhnsT1Y6Dx6RutO4y0a7uw=")
-    HEROKU_API_KEY = os.environ.get("86794ca3-299c-448a-aeb3-0c027c0c7698")
-    HEROKU_APP_NAME = os.environ.get("itachia")
+    API_ID_KEY = int(os.environ.get("API_ID_KEY"))
+    API_HASH_KEY = os.environ.get("API_HASH_KEY")
+    STRING_SESSION = os.environ.get("STRING_SESSION")
+    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY")
+    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME")
     RAW_SIBYL = os.environ.get("SIBYL", "")
     RAW_ENFORCERS = os.environ.get("ENFORCERS", "")
     SIBYL = list(int(x) for x in os.environ.get("SIBYL", "").split())
     INSPECTORS = list(int(x) for x in os.environ.get("INSPECTORS", "").split())
     ENFORCERS = list(int(x) for x in os.environ.get("ENFORCERS", "").split())
     MONGO_DB_URL = os.environ.get("const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://Arcanescanner:<Abhinavj@1234>@cluster0.va6iu.mongodb.net/Arcanescanner?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-client.connect(err => {
-  const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
-  client.close();
-});")
-    Sibyl_logs = int(os.environ.get("-1001317060675"))
-    Sibyl_approved_logs = int(os.environ.get("-1001439418980"))
-    GBAN_MSG_LOGS = int(os.environ.get("-1001342831787"))
-    BOT_TOKEN = os.environ.get("1746986966:AAE8IImkwe5l_Txbah0u5GOLeRzuwhnKJMU")
+const uri = ("MONGO_DB_URL")
+    Sibyl_logs = int(os.environ.get("Sibyl_logs"))
+    Sibyl_approved_logs = int(os.environ.get("Sibyl_Approved_Logs"))
+    GBAN_MSG_LOGS = int(os.environ.get("GBAN_MSG_LOGS"))
+    BOT_TOKEN = os.environ.get("BOT_TOKEN")
 else:
     import Sibyl_System.config as Config
 
