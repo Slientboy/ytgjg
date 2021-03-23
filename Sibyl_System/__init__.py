@@ -29,11 +29,18 @@ if ENV:
     SIBYL = list(int(x) for x in os.environ.get("SIBYL", "").split())
     INSPECTORS = list(int(x) for x in os.environ.get("INSPECTORS", "").split())
     ENFORCERS = list(int(x) for x in os.environ.get("ENFORCERS", "").split())
-    MONGO_DB_URL = os.environ.get("MONGO_DB_URL")
-    Sibyl_logs = int(os.environ.get("Sibyl_logs"))
-    Sibyl_approved_logs = int(os.environ.get("Sibyl_Approved_Logs"))
-    GBAN_MSG_LOGS = int(os.environ.get("GBAN_MSG_LOGS"))
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    MONGO_DB_URL = os.environ.get("const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://Arcanescanner:<Abhinavj@1234>@cluster0.va6iu.mongodb.net/Arcanescanner?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});")
+    Sibyl_logs = int(os.environ.get("-1001317060675"))
+    Sibyl_approved_logs = int(os.environ.get("-1001439418980"))
+    GBAN_MSG_LOGS = int(os.environ.get("-1001342831787"))
+    BOT_TOKEN = os.environ.get("1746986966:AAE8IImkwe5l_Txbah0u5GOLeRzuwhnKJMU")
 else:
     import Sibyl_System.config as Config
 
